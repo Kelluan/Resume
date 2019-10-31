@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  background-color:#fff;
+}
+.main-header {
+    padding-top: 50px;
+    height: 550px;
+    background:linear-gradient(#26292e, transparent 80%),
+                linear-gradient(0deg,#fff, transparent),
+      #ffa949 url("background.jpg") no-repeat center / cover;
+}
+
+.inner-nav {
+  width: 100%;
+  z-index: 100;
+  margin: 0 auto;
+  padding-top: 8px;
+  margin-top: 45px;
+  padding-left: 0;
+  position: fixed;
+  top: 0;
+  background: #26292e;
+  border-bottom: 2px solid #fff;
+  margin-top: -7px;
+}
+.outer-nav {
+  display: inline;
+  margin:0;
+  background: #26292e;
+  text-align: right;
+  border-bottom: none;
+}
+
+.outer-nav li{
+  display:inline;
+  height: 100px;
+  width:55px;
+  text-align:center;
+}
+.outer-nav li a {
+  display:inline-block;
+  margin: 5px 0;
+  padding:10px;
+  width:100%;
+  max-width:80px;
+  text-align:center;
+  color: #fff;
+  text-decoration: none;
+}
+.outer-nav li a:hover {
+  color: rgba(73, 167, 255, 0.836);
+  text-decoration: underline;
+}
+
+.nav-name {
+  display: block;
+  position: relative;
+  top: -2px;
+  float: left;
+  z-index:9999;
+  text-align: left;
+  margin-top: 4px;
+  margin-left: 10px;
+  position:fixed;
+}
+header .main-image {
+  margin-top:50px;
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  border:solid 3px black;
+  transition: all .5s;
+  position:relative;
+}
+
+header .main-image:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+
+h1{
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size:3em;
+  line-height:1.2;
+  color:rgb(54, 192, 227);
+  margin:10px 5px;
+  padding-top:10px;
+}
+h2 {
+  padding: 5px 0;
+  margin:20px auto;
+  color:#36c0e3;;
+  font-size: 2rem;
+}
+.name-span {
+  color:#fff;
+}
+.info{
+width:600px;
+border-radius: 30px;
+background: rgba(0, 0, 0, 0.7);
+margin:auto;
+}
+
+a:link {
+color: rgb(34, 33, 23);
+text-decoration: none;
+font-size: 1.1em;
+}
+a:active {
+color:cornflowerblue;
+}
+a:visited {
+color:lightblue;
+}
+a:hover {
+color: rgba(73, 167, 255, 0.836);
+text-decoration: underline;
+}
+
+.main-header p {
+  color:rgba(255,255,255);
+  font-family: "Gloria Hallelujah", sans-serif;
+  margin:10px 5px;
+  padding-bottom:10px;
+}
+
+footer ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+
+}
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display:inline-block;
+  background-size: 25px 25px;
+  width:25px;
+  height:25px;
+  text-indent:-9999px;
+  opacity:.5;
+}
+
+.social li {
+  display:inline;
+  height: 100px;
+  width:55px;
+  padding:5px;
+}
+
+a.social:hover {
+  opacity:1;
+}
+a.github {
+  background-image: url(../images/git.png);
+}
+a.telephone {
+  background-image:url(../images/telephone.png);
+}
+a.email {
+  background-image:url(../images/email.png);
+}
+a.ig {
+  background-image: url(../images/ig.png);
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background:rgb(209, 139, 89);
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
