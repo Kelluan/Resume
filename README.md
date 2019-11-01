@@ -1,2 +1,0 @@
-# Resume
- Personal Profile Page
