@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background-size: cover center;
+  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   background: url('background.jpg') no-repeat top center ;
@@ -170,10 +170,8 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }

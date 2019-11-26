@@ -14,32 +14,20 @@ body {
 .main-header {
     padding-top: 50px;
     height: 550px;
+    width:100%;
     background:linear-gradient(#26292e, transparent 80%),
                 linear-gradient(0deg,#fff, transparent),
       #ffa949 url("background.jpg") no-repeat center / cover;
 }
 
-.inner-nav {
-  width: 100%;
-  z-index: 100;
-  margin: 0 auto;
-  padding-top: 8px;
-  margin-top: 45px;
-  padding-left: 0;
-  position: fixed;
-  top: 0;
-  background: #26292e;
-  border-bottom: 2px solid #fff;
-  margin-top: -7px;
-}
+
 .outer-nav {
   display: inline;
   margin:0;
   background: #26292e;
-  text-align: right;
+  text-align:right;
   border-bottom: none;
 }
-
 .outer-nav li{
   display:inline;
   height: 100px;
@@ -52,7 +40,7 @@ body {
   padding:10px;
   width:100%;
   max-width:80px;
-  text-align:center;
+  text-align:center;  
   color: #fff;
   text-decoration: none;
 }
@@ -67,10 +55,23 @@ body {
   top: -2px;
   float: left;
   z-index:9999;
-  text-align: left;
+  
   margin-top: 4px;
   margin-left: 10px;
   position:fixed;
+}
+.inner-nav {
+  width: 100%;
+  z-index: 100;
+  margin: 0 auto;
+  padding-top: 8px;
+  margin-top: 45px;
+  padding-left: 0;
+  position: fixed;
+  top: 0;
+  background: #26292e;
+  border-bottom: 2px solid #fff;
+  margin-top: -7px;
 }
 header .main-image {
   margin-top:50px;
@@ -163,16 +164,16 @@ a.social:hover {
   opacity:1;
 }
 a.github {
-  background-image: url(../images/git.png);
+  background-image: url(images/git.png);
 }
 a.telephone {
-  background-image:url(../images/telephone.png);
+  background-image:url(images/telephone.png);
 }
 a.email {
-  background-image:url(../images/email.png);
+  background-image:url(images/email.png);
 }
 a.ig {
-  background-image: url(../images/ig.png);
+  background-image: url(images/ig.png);
 }
 
 .skills li {
@@ -183,3 +184,11 @@ a.ig {
   padding: 5px 10px;
   margin: 2px;
 }
+/*
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}*/
+/* ========================
+ Media Queries 
+ =========================*/
